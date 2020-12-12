@@ -55,7 +55,6 @@ class CPU:
         operand_b = self.ram_read(self.pc + 2)
 
         self.reg[operand_a] = operand_b
-        # print(f'self.reg: {self.reg}')
         
     
     # PRN register pseudo-instruction
